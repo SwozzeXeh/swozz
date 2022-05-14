@@ -1,0 +1,68 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Swozz Script V.0.01", "BloodTheme")
+
+local Tab1 = Window:NewTab("PetSimulatorX")
+local Tab1Section = Tab1:NewSection("PetSimulatorX")
+local Tab2 = Window:NewTab("Da hood")
+local Tab2Section = Tab2:NewSection("Da hood")
+local Tab3 = Window:NewTab("PrisonLife")
+local Tab3Section = Tab3:NewSection("PrisonLife")
+local Tab4 = Window:NewTab("shindoLife")
+local Tab4Section = Tab4:NewSection("shindoLife")
+local Tab5 = Window:NewTab("Brokhaven&Sonic")
+local Tab5Section = Tab5:NewSection("Brokhaven&Sonic")
+
+-- butonlar 
+
+Tab1Section:NewButton("PetSimulatorX-1", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptRUs/Ryans/main/GhostHub-PetSimX.lua"))()
+end)
+
+Tab1Section:NewButton("PetSimulatorX-2", "ButtonInfo", function()
+loadstring(game:GetObjects("rbxassetid://8194485654")[1].Source)("Petsi-X")
+end)
+
+
+
+-- 2. Tab
+
+Tab2Section:NewButton("Da hood-1", "ButtonInfo", function()
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/PolarWasHere/Arctic/main/Arctic"))()
+end)
+
+Tab2Section:NewButton("Da hood-2", "ButtonInfo", function()
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/PolarWasHere/Arctic/main/Arctic"))()
+end)
+
+
+
+-- 3. Tab 
+
+Tab3Section:NewButton("PrisonLife-1", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SpecialXyt/Prison-Life-/main/OrekiHub"))();
+end)
+
+Tab3Section:NewButton("PrisonLife-2", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SpecialXyt/Prison-Life-/main/OrekiHub"))();
+end)
+
+-- 4. Tab
+
+Tab4Section:NewButton("ShindoLife-1", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/PremierHub/Data/main/code.lua"))()
+end)
+
+Tab4Section:NewButton("ShindoLife-2", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/L1ZOT/Project-PJM/main/shinido"))()
+end)
+
+
+-- 5. Tab(Son)
+
+Tab5Section:NewButton("Brokhaven", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
+end)
+
+Tab5Section:NewButton("SonicSpeedSimilator", "ButtonInfo", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/kkeyy-hash/roblox/main/SonicSpeedSimulator.lua'))()
+end)
